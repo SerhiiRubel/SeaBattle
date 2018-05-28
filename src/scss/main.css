@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(86, 179, 255);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  flex: 1;
+  min-width: 48px;
+  min-height: 48px;
+  border: 1px solid gray;
+}
+
+.ship {
+  background-color: rgb(61, 37, 37);
+  border-color: rgb(61, 37, 37);
+}
